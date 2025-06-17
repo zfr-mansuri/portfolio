@@ -486,7 +486,7 @@ article .icon {
 /* FOOTER SECTION */
 
 footer {
-  height: 26vh;
+  height: 7vh;
   margin: 0 1rem;
 }
 
@@ -639,4 +639,8 @@ footer p {
 
 .profile-pic-main-image{
   width: 600px;
+}
+
+.Nav-link-to-hide{
+  visibility: hidden;
 }
