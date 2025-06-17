@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial</title>
+    <style>body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    
+    .testimonial-container {
+        background-color: #ff3366;
+        padding: 20px;
+        border-radius: 15px;
+        width: 500px;
+        text-align: center;
+        position: relative;
+    }
+    
+    .testimonial-content {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .testimonial-image img {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+    
+    .testimonial-text {
+        text-align: left;
+        margin-left: 20px;
+        flex: 1;
+    }
+    
+    .testimonial-text h3 {
+        color: #ff3366;
+        margin: 0 0 10px;
+    }
+    
+    .testimonial-text p {
+        color: #333333;
+        margin: 0 0 10px;
+    }
+    
+    .testimonial-rating span {
+        color: #ffcc00;
+        font-size: 20px;
+    }
+    .quote {
+    position: relative;
+    padding: 20px;
+    color: #333333;
+    font-style: italic;
+}
+
+.quote::before,
+.quote::after {
+    content: '“';
+    font-size: 40px;
+    color: #ff3366;
+    position: absolute;
+}
+
+.quote::before {
+    top: -20px;
+    left: -20px;
+}
+
+.quote::after {
+    content: '”';
+    bottom: -20px;
+    right: -20px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="testimonial-container">
+        <div class="testimonial-content">
+            <div class="testimonial-image">
+                <img src="https://via.placeholder.com/100" alt="Kate Rogers">
+            </div>
+            <div class="testimonial-text">
+                <div class="testimonial-text">
+                    <h3>Kate Rogers - Graphic Designer</h3>
+                    <p class="quote">I needed a refund for tickets to an event that was changed last minute. I experienced great customer service and the issue was resolved in a timely manner. Thanks to agent Sandra!</p>
+                </div>
+                
+                <div class="testimonial-rating">
+                    <span>★★★★★</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
