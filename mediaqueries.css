@@ -89,14 +89,20 @@
 
       .section__pic-container {
         /* width: 46vw; */
-        height: 37vh;
+        height: 42vh;
+        width: auto;
         justify-content: center;
         align-items: baseline;
         overflow: hidden;
     }
 
   .profile-pic-main-image{
-    height: 60vh;
+    height: 65vh;
+  }
+
+  #Final-CTA-Container{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
   }
 
   .section__text__p2 {
@@ -113,6 +119,9 @@
   }
   .btn{
     width: 20rem;
+  }
+  .testimonial-section{
+    padding-top: 0;
   }
 }
 
