@@ -73,6 +73,7 @@
     padding: 30px;
     border-radius: 15px;
     height: 60vh;
+    justify-content: center;
 }
 .testimonials-item .info{
     display: flex;
