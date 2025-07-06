@@ -1,109 +1,137 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testimonial</title>
-    <style>body {
-        font-family: Arial, sans-serif;
-        background-color: #f2f2f2;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-    }
-    
-    .testimonial-container {
-        background-color: #ff3366;
-        padding: 20px;
-        border-radius: 15px;
-        width: 500px;
-        text-align: center;
-        position: relative;
-    }
-    
-    .testimonial-content {
-        background-color: #ffffff;
-        padding: 20px;
-        border-radius: 15px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    
-    .testimonial-image img {
-        border-radius: 50%;
-        width: 100px;
-        height: 100px;
-        object-fit: cover;
-    }
-    
-    .testimonial-text {
-        text-align: left;
-        margin-left: 20px;
-        flex: 1;
-    }
-    
-    .testimonial-text h3 {
-        color: #ff3366;
-        margin: 0 0 10px;
-    }
-    
-    .testimonial-text p {
-        color: #333333;
-        margin: 0 0 10px;
-    }
-    
-    .testimonial-rating span {
-        color: #ffcc00;
-        font-size: 20px;
-    }
-    .quote {
-    position: relative;
-    padding: 20px;
-    color: #333333;
-    font-style: italic;
-}
+<div id="more-projects" style="display: none;">
 
-.quote::before,
-.quote::after {
-    content: '“';
-    font-size: 40px;
-    color: #ff3366;
-    position: absolute;
-}
-
-.quote::before {
-    top: -20px;
-    left: -20px;
-}
-
-.quote::after {
-    content: '”';
-    bottom: -20px;
-    right: -20px;
-}
-
-    </style>
-</head>
-<body>
-    <div class="testimonial-container">
-        <div class="testimonial-content">
-            <div class="testimonial-image">
-                <img src="https://via.placeholder.com/100" alt="Kate Rogers">
+        <!-- Project 4 -->
+        <div class="details-container color-container project-details-container">
+          <div class="article-container">
+            <div class="image-container" id="container4">
+              <img src="assets/project_images/shayasi/pic1.png" class="image-slide project-img" alt="Image 1">
+              <img src="assets/project_images/shayasi/pic2.png" class="image-slide project-img" alt="Image 2">
+              <img src="assets/project_images/shayasi/pic3.png" class="image-slide project-img" alt="Image 3">
             </div>
-            <div class="testimonial-text">
-                <div class="testimonial-text">
-                    <h3>Kate Rogers - Graphic Designer</h3>
-                    <p class="quote">I needed a refund for tickets to an event that was changed last minute. I experienced great customer service and the issue was resolved in a timely manner. Thanks to agent Sandra!</p>
+          </div>
+          <div class="project-overall-details">
+            <div class="project-name">
+              <p>ShayasiSilver</p>
+              <a href="https://shayasisilver.com/" target="_blank">
+                <div class="live-container" id="live-btn4">
+                  <p>LIVE</p>
+                  <img src="assets/live.svg" alt="">
                 </div>
-                
-                <div class="testimonial-rating">
-                    <span>★★★★★</span>
-                </div>
+              </a>
             </div>
+            <div class="project-technologies">
+              <span class="skill-capsule" style="width: 100px; background: #00759c29">
+                <img src="assets/skills/wordpress.svg" alt="" class="skill-logo">
+                <span class="skill-name" style="color: #00749C">Wordpress</span>
+              </span>
+              <span class="skill-capsule" style="width:100px; background: rgba(146, 0, 58, 0.16);">
+                <img src="assets/elementor.svg" alt="" class="skill-logo">
+                <span class="skill-name" style="color: #92003B">Elementor</span>
+              </span>
+            </div>
+            <hr>
+            <p class="project-description">Designed a robust e-commerce site for a jewelry brand,
+              achieving over <b>$120K</b> in monthly sales with a user-friendly Interface, effective Search
+              Optimization techniques.</p>
+          </div>
         </div>
-    </div>
-</body>
-</html>
+
+        <!-- Project 5 (replica of Project 1) -->
+        <div class="details-container color-container project-details-container">
+          <div class="article-container">
+            <div class="image-container" id="container5">
+              <img src="assets/project_images/doyoueven/pic1.png" class="image-slide project-img" alt="Image 1">
+              <img src="assets/project_images/doyoueven/pic2.png" class="image-slide project-img" alt="Image 2">
+              <img src="assets/project_images/doyoueven/pic3.png" class="image-slide project-img" alt="Image 3">
+            </div>
+          </div>
+          <div class="project-overall-details">
+            <div class="project-name">
+              <p>Doyoueven</p>
+              <a href="https://www.doyoueven.com/" target="_blank">
+                <div class="live-container" id="live-btn5">
+                  <p>LIVE</p>
+                  <img src="assets/live.svg" alt="">
+                </div>
+              </a>
+            </div>
+            <div class="project-technologies">
+              <span class="skill-capsule" style="width: 100px; background: #00759c29">
+                <img src="assets/skills/wordpress.svg" alt="" class="skill-logo">
+                <span class="skill-name" style="color: #00749C">Wordpress</span>
+              </span>
+              <span class="skill-capsule" style="width:100px; background: rgba(146, 0, 58, 0.16);">
+                <img src="assets/elementor.svg" alt="" class="skill-logo">
+                <span class="skill-name" style="color: #92003B">Elementor</span>
+              </span>
+            </div>
+            <hr>
+            <p class="project-description">Crafted a elegant e-commerce platform for an athletic wear brand,
+              generating over <b>$250K</b> in monthly sales through modern UI design and strategic SEO
+              implementation.</p>
+          </div>
+        </div>
+
+        <!-- Project 6 (replica of Project 2) -->
+        <div class="details-container color-container project-details-container">
+          <div class="article-container">
+            <div class="image-container" id="container6">
+              <img src="assets/project_images/kalyanam/pic1.png" class="image-slide project-img" alt="Image 1">
+              <img src="assets/project_images/kalyanam/pic2.png" class="image-slide project-img" alt="Image 2">
+              <img src="assets/project_images/kalyanam/pic3.png" class="image-slide project-img" alt="Image 3">
+            </div>
+          </div>
+          <div class="project-overall-details">
+            <div class="project-name">
+              <p>Kalyanamm</p>
+              <a href="https://kalyanamm.com/" target="_blank">
+                <div class="live-container" id="live-btn6">
+                  <p>LIVE</p>
+                  <img src="assets/live.svg" alt="">
+                </div>
+              </a>
+            </div>
+            <div class="project-technologies">
+              <span class="skill-capsule" style="width: 70px; background: rgba(97, 220, 251, 0.16)">
+                <img src="assets/skills/react.svg" alt="" class="skill-logo">
+                <span class="skill-name" style="color: #61DBFB">React</span>
+              </span>
+              <span class="skill-capsule" style="width:85px; background: rgba(0, 0, 0, 0.16);">
+                <img src="assets/skills/Express.svg" alt="" class="skill-logo">
+                <span class="skill-name" style="color: #000000">Express</span>
+              </span>
+              <span class="skill-capsule" style="width:95px; background: rgba(77, 179, 61, 0.16);">
+                <img src="assets/skills/MongoDB.svg" alt="" class="skill-logo">
+                <span class="skill-name" style="color: #4DB33D">MongoDB</span>
+              </span>
+            </div>
+            <hr>
+            <p class="project-description">Created a sleek e-commerce site with responsive design, seamless
+              navigation, and SEO optimization. High-quality visuals and efficient checkout contributed to over
+              <b>$170K</b> in sales.
+            </p>
+          </div>
+        </div>
+
+</div> <!-- End of #more-projects -->
+
+      <!-- Show More Button -->
+<div style="text-align: center; margin-top: 20px;">
+  <button id="show-more-btn" style="padding: 10px 20px; background-color: #00749C; color: white; border: none; border-radius: 5px; cursor: pointer;">
+    Show More
+  </button>
+</div>
+
+
+https://www.clsliving.com/
+https://articlestudentliving.com/
+https://lvcollective.com/
+
+
+Book your free stretgy call calendly "CTA Button"
+
+
+https://www.linkedin.com/in/ariel-fins-1153054a/
+https://www.linkedin.com/in/joe-maehler-96712614?trk=public_post_feed-actor-image
+https://www.clsliving.com/leadership
+https://articlestudentliving.com/our-team/

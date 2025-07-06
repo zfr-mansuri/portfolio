@@ -1,295 +1,326 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="style1.css" />
-  <link rel="stylesheet" href="mediaqueries.css" />
-</head>
-
-<body>
-  <nav id="desktop-nav">
-    <div class="logo">Zafar Mansuri</div>
-    <div>
-      <ul class="nav-links">
-        <li class="Nav-link-to-hide"><a href="#about">About</a></li>
-        <li class="Nav-link-to-hide"><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-  <nav id="hamburger-nav">
-    <div class="logo">Zafar Mansuri</div>
-    <div class="hamburger-menu">
-      <div class="hamburger-icon" onclick="toggleMenu()">
-        <span></span>
-        <span></span>
-        <span></span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Zafar Mansuri</div>
+      <div>
+        <ul class="nav-links">
+          <li class="Nav-link-to-hide"><a href="#about">About</a></li>
+          <li class="Nav-link-to-hide"><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </div>
-      <div class="menu-links">
-        <li><a href="#about" onclick="toggleMenu()">About</a></li>
-        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Zafar Mansuri</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <!-- <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li> -->
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
       </div>
-    </div>
-  </nav>
-  <section id="profile">
-    <div class="section__text">
-      <section class="testimonial-section">
-        <div class="scroller-wrapper">
-          <div class="scroller-track">
-            <!-- Repeat avatars twice for seamless scroll -->
-            <div class="avatar"><img src="Testimonial_pic/Shakil_Shaikh.jpg" /></div>
-            <div class="avatar"><img src="Testimonial_pic/Chris_Backman.jpeg" /></div>
-            <div class="avatar"><img src="Testimonial_pic/Masaru_Maeda.png" /></div>
-            <div class="avatar"><img src="Testimonial_pic/Rachel_McCully.png" /></div>
-            <div class="avatar"><img src="Testimonial_pic/client3.jpeg" /></div>
-            <!-- <div class="avatar"><img src="Testimonial_pic/Shakil_Shaikh.jpg" /></div> -->
-
-            <!-- Duplicated -->
-            <div class="avatar"><img src="Testimonial_pic/client1.jpeg" /></div>
-            <div class="avatar"><img src="Testimonial_pic/client2.jpeg" /></div>
-            <div class="avatar"><img src="Testimonial_pic/client4.jpeg" /></div>
-            <div class="avatar"><img src="Testimonial_pic/Samuele_Glorioso.jpeg" /></div>
-            <div class="avatar"><img src="Testimonial_pic/client5.jpg" /></div>
+    </nav>
+    <section id="profile">
+      <div class="section__text">
+        <section class="testimonial-section">
+          <div class="scroller-wrapper">
+            <div class="scroller-track">
+              <!-- Repeat avatars twice for seamless scroll -->
+              <div class="avatar"><img src="Testimonial_pic/Shakil_Shaikh.jpg" /></div>
+              <div class="avatar"><img src="Testimonial_pic/Chris_Backman.jpeg" /></div>
+              <div class="avatar"><img src="Testimonial_pic/Masaru_Maeda.png" /></div>
+              <div class="avatar"><img src="Testimonial_pic/Rachel_McCully.png" /></div>
+              <div class="avatar"><img src="Testimonial_pic/client3.jpeg" /></div>
+              <div class="avatar"><img src="Testimonial_pic/client1.jpeg" /></div>
+              <div class="avatar"><img src="Testimonial_pic/client2.jpeg" /></div>
+              <div class="avatar"><img src="Testimonial_pic/client4.jpeg" /></div>
+              <div class="avatar"><img src="Testimonial_pic/Samuele_Glorioso.jpeg" /></div>
+              <div class="avatar"><img src="Testimonial_pic/client5.jpg" /></div>
+              <!-- Duplicated -->
+              <div class="avatar"><img src="Testimonial_pic/Shakil_Shaikh.jpg" /></div>
+              <div class="avatar"><img src="Testimonial_pic/Chris_Backman.jpeg" /></div>
+              <div class="avatar"><img src="Testimonial_pic/Masaru_Maeda.png" /></div>
+              <div class="avatar"><img src="Testimonial_pic/Rachel_McCully.png" /></div>
+              <div class="avatar"><img src="Testimonial_pic/client3.jpeg" /></div>
+              <div class="avatar"><img src="Testimonial_pic/client1.jpeg" /></div>
+              <div class="avatar"><img src="Testimonial_pic/client2.jpeg" /></div>
+              <div class="avatar"><img src="Testimonial_pic/client4.jpeg" /></div>
+              <div class="avatar"><img src="Testimonial_pic/Samuele_Glorioso.jpeg" /></div>
+              <div class="avatar"><img src="Testimonial_pic/client5.jpg" /></div>
+            </div>
+          </div>
+          <div class="stars">
+            <!-- ⭐⭐⭐⭐⭐ -->
+            <span>Loved by Entrepreneurs</span>
+          </div>
+        </section>
+        <!-- <p class="section__text__p1">Hello, I'm</p> -->
+        <h1 class="title" style="margin-top: 1.7rem">I build strategic landing pages that close more deals </h1>
+        <!-- <p class="section__text__p2">Full-Stack Developer</p> -->
+        <div class="operational-values">
+          <div class="operation-value">
+            <img src="assets/project-completed.svg" alt="value">
+            <H4>120+</H4>
+            <p>PROJECTS FINISHED</p>
+          </div>
+          <div class="operation-value">
+            <img src="assets/costumer.png" alt="value" style="width: 30px;">
+            <H4>110+</H4>
+            <p>HAPPY CUSTOMERS</p>
+          </div>
+          <div class="operation-value">
+            <img src="assets/working-hours.png" alt="value" style="width: 30px;">
+            <H4>2100+</H4>
+            <p style="padding-right: 4px;
+              padding-left: 4px;">WORKING HOURS</p>
           </div>
         </div>
-
-        <div class="stars">
-          <!-- ⭐⭐⭐⭐⭐ -->
-          <span>Loved by Entrepreneurs</span>
-        </div>
-      </section>
-      <!-- <p class="section__text__p1">Hello, I'm</p> -->
-      <h1 class="title" style="margin-top: 1.7rem">I build strategic landing pages that close more deals </h1>
-      <!-- <p class="section__text__p2">Full-Stack Developer</p> -->
-      <div class="operational-values">
-        <div class="operation-value">
-          <img src="assets/project-completed.svg" alt="value">
-          <H4>120+</H4>
-          <p>PROJECTS FINISHED</p>
-        </div>
-        <div class="operation-value">
-          <img src="assets/costumer.png" alt="value" style="width: 30px;">
-          <H4>110+</H4>
-          <p>HAPPY CUSTOMERS</p>
-        </div>
-        <div class="operation-value">
-          <img src="assets/working-hours.png" alt="value" style="width: 30px;">
-          <H4>2100+</H4>
-          <p style="padding-right: 4px;
-  padding-left: 4px;">WORKING HOURS</p>
-        </div>
-      </div>
-      <div class="btn-container">
-        <!-- <button
+        <div class="btn-container">
+          <!-- <button
             class="btn btn-color-2"
             onclick="window.open('./assets/resume-example.pdf')"
-          >
+            >
             Download CV
-          </button> -->
-        <button class="btn btn-color-1" onclick="location.href = 'https://calendly.com/bbbb225321/30min'">
+            </button> -->
+          <button class="btn btn-color-1" onclick="location.href = 'https://calendly.com/bbbb225321/30min'">
           Book your free discovery call now
-        </button>
+          </button>
+        </div>
+        <!-- <div id="socials-container">
+          <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+            onclick="location.href='https://linkedin.com/'" />
+          <img src="./assets/github.png" alt="My Github profile" class="icon"
+            onclick="location.href='https://github.com/'" />
+          </div> -->
       </div>
-
-      <!-- <div id="socials-container">
-        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
-          onclick="location.href='https://linkedin.com/'" />
-        <img src="./assets/github.png" alt="My Github profile" class="icon"
-          onclick="location.href='https://github.com/'" />
-      </div> -->
-    </div>
-    <div class="section__pic-container">
-      <!-- <img src="./assets/Zafar_profile.png" alt="Zafar Mansuri profile picture" /> -->
-      <img class="profile-pic-main-image" src="./assets/Test-Profile.png" alt="Zafar's profile picture" />
-    </div>
-  </section>
-  <div class="tempdiv">
-  <section class="testimonials">
-    <div class="container">
-      <div class="section-header">
-        <h2 class="title1">what our client say</h2>
+      <div class="section__pic-container">
+        <!-- <img src="./assets/Zafar_profile.png" alt="Zafar Mansuri profile picture" /> -->
+        <img class="profile-pic-main-image" src="./assets/Test-Profile.png" alt="Zafar's profile picture" />
       </div>
-      <div class="testimonials-content">
-        <div class="swiper testimonials-slider js-testimonials-slider">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide testimonials-item">
-              <div class="video-testimonial">
-                <video class="shakil-video-container" controls poster="Testimonial_pic/Shakil_Pic_For_Video_Tes.JPG">
-                  <source src="Videos/shakil-video-compressed.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-                </video>
-              </div>
-              <div class="text-box">
-                <h3 class="name">Shakil Shaikh</h3>
-                <span class="job">ShayasiSilver Founder</span>
+    </section>
+    <div class="tempdiv">
+      <section class="testimonials">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="title1">what our client say</h2>
+          </div>
+          <div class="testimonials-content">
+            <div class="swiper testimonials-slider js-testimonials-slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide testimonials-item">
+                  <div class="video-testimonial">
+                    <video class="shakil-video-container" controls poster="Testimonial_pic/Shakil_Pic_For_Video_Tes.JPG">
+                      <source src="Videos/shakil-video-compressed.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+                  <div class="text-box">
+                    <h3 class="name">Shakil Shaikh</h3>
+                    <span class="job">ShayasiSilver Founder</span>
+                  </div>
+                </div>
+                <div class="swiper-slide testimonials-item">
+                  <div class="info">
+                    <img src="Testimonial_pic/Ariel-fins.jpeg" alt="img">
+                  </div>
+                  <p class="testimonial-quote"><b>" </b>Delivered as commited after the redesign, people started staying longer on site, and actually reaching out. Traffic and leads are much better, and we’re finally seeing solid returns.<b>"</b>
+                  </p>
+                  <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                  <div class="text-box">
+                    <h3 class="name">Ariel Fins</h3>
+                    <span class="job">Madison's Managing Director</span>
+                  </div>
+                </div>
+                <div class="swiper-slide testimonials-item">
+                  <div class="info">
+                    <img src="Testimonial_pic/Jessica-Nix.jpg" alt="img">
+                  </div>
+                  <p class="testimonial-quote"><b>" </b>Honestly, working with him felt like someone from our own team was doing it. He understood our needs so well, we didn’t have to over-explain anything. The whole thing just came together perfectly.<b>"</b>
+                  </p>
+                  <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                  <div class="text-box">
+                    <h3 class="name">Jessica Nix</h3>
+                    <span class="job">CLS Living CMO</span>
+                  </div>
+                </div>
+                <div class="swiper-slide testimonials-item">
+                  <div class="info">
+                    <img src="Testimonial_pic/Matt-Maxa.jpg" alt="img">
+                  </div>
+                  <p class="testimonial-quote"><b>" </b>We didn’t expect such a quick shift. Within weeks, our site started pulling more quality leads. The bounce rate dropped, and even our team noticed how much smoother site is now.<b>"</b>
+                  </p>
+                  <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                  <div class="text-box">
+                    <h3 class="name">Matt Mexa</h3>
+                    <span class="job">Article Student Living COO</span>
+                  </div>
+                </div>
+                <div class="swiper-slide testimonials-item">
+                  <div class="info">
+                    <img src="Testimonial_pic/Chris_Backman.jpeg" alt="img">
+                  </div>
+                  <p class="testimonial-quote"><b>" </b>Fantastic work! He turned our vision into reality, created an
+                    impressive product, handled adjustments smoothly, and delivered everything on time with great
+                    support.<b>"</b>
+                  </p>
+                  <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                  <div class="text-box">
+                    <h3 class="name">Chris Backman</h3>
+                    <span class="job">Doyoueven Manager</span>
+                  </div>
+                </div>
+                <div class="swiper-slide testimonials-item">
+                  <div class="info">
+                    <img src="Testimonial_pic/Masaru_Maeda.png" alt="img">
+                  </div>
+                  <p class="testimonial-quote"><b>" </b>The app requirements i requested were complex and he did a great
+                    job. In the future, if i decide to add additional features I will be returning for his service.<b>"</b>
+                  </p>
+                  <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-duotone fa-solid fa-star-half"></i>
+                  </div>
+                  <div class="text-box">
+                    <h3 class="name">Masaru Maeda</h3>
+                    <span class="job">Musashi Brand Strategist</span>
+                  </div>
+                </div>
+                <div class="swiper-slide testimonials-item">
+                  <div class="info">
+                    <img src="Testimonial_pic/Rachel_McCully.png" alt="img">
+                  </div>
+                  <p class="testimonial-quote"><b>" </b>He did an exceptional job! He delivered exactly what I wanted. I highly recommend his services. Thank you, Zafar, for your
+                    outstanding work! <b>"</b>
+                  </p>
+                  <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                  <div class="text-box">
+                    <h3 class="name">Rachel McCully</h3>
+                    <span class="job">BTY Cosmetics CEO</span>
+                  </div>
+                </div>
+                <div class="swiper-slide testimonials-item">
+                  <div class="info">
+                    <img src="Testimonial_pic/Samuele_Glorioso.jpeg" alt="img">
+                  </div>
+                  <p class="testimonial-quote"><b>" </b>It was great working with him, he understood the guidelines to the
+                    assignment well and did great work in a short interval of time. He delivered quality work on time.<b>"</b>
+                  </p>
+                  <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                  <div class="text-box">
+                    <h3 class="name">Samuele Glorioso</h3>
+                    <span class="job">LuxPets Manager</span>
+                  </div>
+                </div>
               </div>
             </div>
-
-
-            <div class="swiper-slide testimonials-item">
-              <div class="info">
-                <img src="Testimonial_pic/Shakil_Shaikh.jpg" alt="img">
-              </div>
-              <p class="testimonial-quote"><b>" </b>Fantastic work! He turned our vision into reality, created an
-                impressive product, handled adjustments smoothly, and delivered everything on time with great
-                support.<b>"</b></p>
-              <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-              </div>
-              <div class="text-box">
-                <h3 class="name">Shakil Shaikh</h3>
-                <span class="job">ShayasiSilver Founder</span>
-              </div>
-            </div>
-
-            <div class="swiper-slide testimonials-item">
-              <div class="info">
-                <img src="Testimonial_pic/Chris_Backman.jpeg" alt="img">
-              </div>
-              <p class="testimonial-quote"><b>" </b>Zafar is a very professionnal. It was the 2nd time i worked with
-                him, and i was very pleased with the outcome. Will comeback again, with another project! <b>"</b></p>
-              <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-              </div>
-              <div class="text-box">
-                <h3 class="name">Chris Backman</h3>
-                <span class="job">Doyoueven Manager</span>
-              </div>
-            </div>
-
-            <div class="swiper-slide testimonials-item">
-              <div class="info">
-                <img src="Testimonial_pic/Masaru_Maeda.png" alt="img">
-              </div>
-              <p class="testimonial-quote"><b>" </b>The app requirements i requested were complex and he did a great
-                job. In the future, if I decide to add additional features I will be returning for his service.<b>"</b>
-              </p>
-              <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa-duotone fa-solid fa-star-half"></i>
-              </div>
-              <div class="text-box">
-                <h3 class="name">Masaru Maeda</h3>
-                <span class="job">Musashi Brand Strategist</span>
-              </div>
-            </div>
-
-            <div class="swiper-slide testimonials-item">
-              <div class="info">
-                <img src="Testimonial_pic/Rachel_McCully.png" alt="img">
-              </div>
-              <p class="testimonial-quote"><b>" </b>He did an exceptional job! I'm assigning him another project because
-                he delivered exactly what I wanted. I highly recommend his services. Thank you, Zafar, for your
-                outstanding work! <b>"</b></p>
-              <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-              </div>
-              <div class="text-box">
-                <h3 class="name">Rachel McCully</h3>
-                <span class="job">BTY Cosmetics CEO</span>
-              </div>
-            </div>
-
-            <div class="swiper-slide testimonials-item">
-              <div class="info">
-                <img src="Testimonial_pic/Samuele_Glorioso.jpeg" alt="img">
-              </div>
-              <p class="testimonial-quote"><b>" </b>It was great working with him, he understood the guidelines to the
-                assignment well and did great work in a short amount of time. He delivered quality work on time.<b>"</b>
-              </p>
-              <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-              </div>
-              <div class="text-box">
-                <h3 class="name">Samuele Glorioso</h3>
-                <span class="job">LuxPets Manager</span>
-              </div>
-            </div>
+            <div class="swiper-pagination js-testimonials-pagination"></div>
           </div>
         </div>
-        <div class="swiper-pagination js-testimonials-pagination"></div>
-      </div>
+      </section>
     </div>
-  </section>
-  </div>
-  <section id="projects">
-    <p class="section__text__p1">Browse My Recent</p>
-    <h1 class="title">Projects</h1>
-    <!-- here test starts -->
-    <div class="experience-details-container">
-      <div class="about-containers">
-        <div class="details-container color-container project-details-container">
-          <div class="article-container">
-            <!-- <img src="./assets/project1.png" alt="Project 1" class="project-img" /> -->
-            <div class="image-container" id="container1">
-              <img src="assets/project_images/doyoueven/pic1.png" class="image-slide project-img" alt="Image 1">
-              <img src="assets/project_images/doyoueven/pic2.png" class="image-slide project-img" alt="Image 2">
-              <img src="assets/project_images/doyoueven/pic3.png" class="image-slide project-img" alt="Image 3">
-            </div>
-          </div>
-          <!-- work -->
-          <div class="project-overall-details">
-            <div class="project-name">
-              <p>Doyoueven</p>
-              <a href="https://www.doyoueven.com/" target="_blank">
-                <div class="live-container" id="live-btn1">
-                  <p>LIVE</p>
-                  <img src="assets/live.svg"" alt="">
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <!-- here test starts -->
+      <div class="experience-details-container">
+        <div class="about-containers" id="projects-group-1">
+          <div class="details-container color-container project-details-container">
+            <div class="article-container">
+              <!-- <img src="./assets/project1.png" alt="Project 1" class="project-img" /> -->
+              <div class="image-container" id="container1">
+                <img src="assets/project_images/pacaso/pic1.png" class="image-slide project-img" alt="Image 1">
+                <img src="assets/project_images/pacaso/pic2.png" class="image-slide project-img" alt="Image 2">
+                <img src="assets/project_images/pacaso/pic3.png" class="image-slide project-img" alt="Image 3">
               </div>
-            </a>
             </div>
-
-            <div class=" project-technologies">
-                  <!-- <span class="skill-capsule" style="width: 80px; background: rgba(149, 191, 72, 0.16)">
-                    <img src="assets/skills/shopify.svg" alt="" class="skill-logo">
-                    <span class="skill-name" style="color: #96bf48">Shopify</span>
+            <!-- work -->
+            <div class="project-overall-details">
+              <div class="project-name">
+                <p>Pacaso</p>
+                <a href="https://www.pacaso.com/" target="_blank">
+                  <div class="live-container" id="live-btn1">
+                    <p>LIVE</p>
+                    <img src="assets/live.svg"" alt="">
+                  </div>
+                </a>
+              </div>
+              <div class=" project-technologies">
+                <!-- <span class="skill-capsule" style="width: 80px; background: rgba(149, 191, 72, 0.16)">
+                  <img src="assets/skills/shopify.svg" alt="" class="skill-logo">
+                  <span class="skill-name" style="color: #96bf48">Shopify</span>
                   </span>
                   <span class="skill-elementor"></span> -->
-                  <span class="skill-capsule" style="width: 100px; background: #00759c29">
-                        <img src="assets/skills/wordpress.svg" alt="" class="skill-logo">
-                        <span class="skill-name" style="color: #00749C">Wordpress</span>
-                      </span>
-                      <span class="skill-capsule" style="width:100px; background: rgba(146, 0, 58, 0.16);">
-                        <img src="assets/elementor.svg" alt="" class="skill-logo">
-                        <span class="skill-name" style="color: #92003B">Elementor</span>
-                      </span>
-                      <span class="skill-elementor"></span>
-                </div>
-
-                <hr>
-
-                <p class="project-description">Crafted a elegant e-commerce platform for an athletic wear brand,
-                  generating over <b>$250K</b> in monthly sales through modern UI design and strategic SEO
-                  implementation.</p>
+                <span class="skill-capsule" style="width: 100px; background: #00759c29">
+                <img src="assets/skills/wordpress.svg" alt="" class="skill-logo">
+                <span class="skill-name" style="color: #00749C">Wordpress</span>
+                </span>
+                <span class="skill-capsule" style="width:100px; background: rgba(146, 0, 58, 0.16);">
+                <img src="assets/elementor.svg" alt="" class="skill-logo">
+                <span class="skill-name" style="color: #92003B">Elementor</span>
+                </span>
+                <span class="skill-elementor"></span>
+              </div>
+              <hr>
+              <p class="project-description">We redesigned Pacaso’s website. Within 60 days of launch, time spent on listings jumped by <b>72%</b>, inquiries <b>tripled</b>, and bounce rate dropped by <b>40%</b>. Monthly visitors grew from <b>217K to over 500K</b>.
+              </p>
             </div>
             <!-- work -->
           </div>
@@ -297,306 +328,520 @@
             <div class="article-container">
               <!-- <img src="./assets/project1.png" alt="Project 1" class="project-img" /> -->
               <div class="image-container" id="container2">
-                <img src="assets/project_images/kalyanam/pic1.png" class="image-slide project-img" alt="Image 1">
-                <img src="assets/project_images/kalyanam/pic2.png" class="image-slide project-img" alt="Image 2">
-                <img src="assets/project_images/kalyanam/pic3.png" class="image-slide project-img" alt="Image 3">
+                <img src="assets/project_images/madison/pic1.png" class="image-slide project-img" alt="Image 1">
+                <img src="assets/project_images/madison/pic2.png" class="image-slide project-img" alt="Image 2">
+                <img src="assets/project_images/madison/pic3.png" class="image-slide project-img" alt="Image 3">
               </div>
             </div>
             <!-- work -->
             <div class="project-overall-details">
               <div class="project-name">
-                <p>Kalyanamm</p>
-                <a href="https://kalyanamm.com/" target="_blank">
+                <p>Madison Realty Capital</p>
+                <a href="https://madisonrealtycapital.com/" target="_blank">
                   <div class="live-container" id="live-btn2">
                     <p>LIVE</p>
                     <img src="assets/live.svg"" alt="">
-              </div>
-            </a>
-            </div>
-
-            <div class=" project-technologies">
-                    <span class="skill-capsule" style="width: 70px; background: rgba(97, 220, 251, 0.16)">
-                      <img src="assets/skills/react.svg" alt="" class="skill-logo">
-                      <span class="skill-name" style="color: #61DBFB">React</span>
-                    </span>
-                    <span class="skill-capsule" style="width:85px; background: rgba(0, 0, 0, 0.16);">
-                      <img src="assets/skills/Express.svg" alt="" class="skill-logo">
-                      <span class="skill-name" style="color: #000000">Express</span>
-                    </span>
-                    <span class="skill-capsule" style="width:95px; background: rgba(77, 179, 61, 0.16);">
-                      <img src="assets/skills/MongoDB.svg" alt="" class="skill-logo">
-                      <span class="skill-name" style="color: #4DB33D">MongoDB</span>
-                    </span>
-                    <span class="skill-elementor"></span>
                   </div>
-
-                  <hr>
-
-                  <p class="project-description">Created a sleek e-commerce site with responsive design, seamless
-                    navigation, and SEO optimization. High-quality visuals and efficient checkout contributed to over
-                    <b>$170K</b> in sales.
-                  </p>
+                </a>
               </div>
-              <!-- work -->
+              <div class=" project-technologies">
+                <span class="skill-capsule" style="width: 70px; background: rgba(97, 220, 251, 0.16)">
+                <img src="assets/skills/react.svg" alt="" class="skill-logo">
+                <span class="skill-name" style="color: #61DBFB">React</span>
+                </span>
+                <span class="skill-capsule" style="width:85px; background: rgba(0, 0, 0, 0.16);">
+                <img src="assets/skills/Express.svg" alt="" class="skill-logo">
+                <span class="skill-name" style="color: #000000">Express</span>
+                </span>
+                <span class="skill-capsule" style="width:95px; background: rgba(77, 179, 61, 0.16);">
+                <img src="assets/skills/MongoDB.svg" alt="" class="skill-logo">
+                <span class="skill-name" style="color: #4DB33D">MongoDB</span>
+                </span>
+                <span class="skill-elementor"></span>
+              </div>
+              <hr>
+              <p class="project-description">Redesigned Madison’s website and delivered <b>2× more inquiries</b> and newsletter sign-ups, a <b>60% increase</b> in session duration, and a <b>35% drop</b> in bounce rate. <b>New inverstors sign-ups</b> also saw a strong uplift within three months.
+              </p>
             </div>
+            <!-- work -->
+          </div>
+          <div class="details-container color-container project-details-container">
+            <div class="article-container">
+              <!-- <img src="./assets/project1.png" alt="Project 1" class="project-img" /> -->
+              <div class="image-container" id="container3">
+                <img src="assets/project_images/elixr/pic1.png" class="image-slide project-img" alt="Image 1">
+                <img src="assets/project_images/elixr/pic2.png" class="image-slide project-img" alt="Image 2">
+                <img src="assets/project_images/elixr/pic3.png" class="image-slide project-img" alt="Image 3">
+              </div>
+            </div>
+            <!-- work -->
+            <div class="project-overall-details">
+              <div class="project-name">
+                <p>Elixr Earth</p>
+                <a href="https://www.elixr.earth/#1" target="_blank">
+                  <div class="live-container" id="live-btn3">
+                    <p>LIVE</p>
+                    <img src="assets/live.svg"" alt="">
+                  </div>
+                </a>
+              </div>
+              <div class=" project-technologies">
+                <span class="skill-capsule" style="width: 100px; background: #00759c29">
+                <img src="assets/skills/wordpress.svg" alt="" class="skill-logo">
+                <span class="skill-name" style="color: #00749C">Wordpress</span>
+                </span>
+                <span class="skill-capsule" style="width:100px; background: rgba(146, 0, 58, 0.16);">
+                <img src="assets/elementor.svg" alt="" class="skill-logo">
+                <span class="skill-name" style="color: #92003B">Elementor</span>
+                </span>
+                <span class="skill-elementor"></span>
+              </div>
+              <hr>
+              <p class="project-description">We crafted ELIXR’s website to better communicate their mission and showcase active projects. his led to a <b>80% increase</b> in organic traffic and a strong surge in interest from city stakeholders and potential partners.
+              </p>
+            </div>
+            <!-- work -->
+          </div>
+        </div>
+        <div class="about-containers" id="projects-group-2"  style="display: none">
+            <!-- Project 4 -->
             <div class="details-container color-container project-details-container">
               <div class="article-container">
-                <!-- <img src="./assets/project1.png" alt="Project 1" class="project-img" /> -->
-                <div class="image-container" id="container3">
+                <div class="image-container" id="container4">
+                  <img src="assets/project_images/clsliving/pic1.png" class="image-slide project-img" alt="Image 1">
+                  <img src="assets/project_images/clsliving/pic2.png" class="image-slide project-img" alt="Image 2">
+                  <img src="assets/project_images/clsliving/pic3.png" class="image-slide project-img" alt="Image 3">
+                </div>
+              </div>
+              <div class="project-overall-details">
+                <div class="project-name">
+                  <p>CLS Living</p>
+                  <a href="https://www.clsliving.com/" target="_blank">
+                    <div class="live-container" id="live-btn4">
+                      <p>LIVE</p>
+                      <img src="assets/live.svg" alt="">
+                    </div>
+                  </a>
+                </div>
+                <div class="project-technologies">
+                  <span class="skill-capsule" style="width: 100px; background: #00759c29">
+                  <img src="assets/skills/wordpress.svg" alt="" class="skill-logo">
+                  <span class="skill-name" style="color: #00749C">Wordpress</span>
+                  </span>
+                  <span class="skill-capsule" style="width:100px; background: rgba(146, 0, 58, 0.16);">
+                  <img src="assets/elementor.svg" alt="" class="skill-logo">
+                  <span class="skill-name" style="color: #92003B">Elementor</span>
+                  </span>
+                </div>
+                <hr>
+                <p class="project-description">We redesigned CLS Living’s website  to reflect their hospitality-first housing brand. This led to a <b>230% increase</b> in monthly visits, a <b>2.8× boost</b> in booking conversions, and the site now ranks in the <b>top 5</b> regionally.
+                </p>
+              </div>
+            </div>
+            <!-- Project 5 (replica of Project 1) -->
+            <div class="details-container color-container project-details-container">
+              <div class="article-container">
+                <div class="image-container" id="container5">
+                  <img src="assets/project_images/lvcollective/pic1.png" class="image-slide project-img" alt="Image 1">
+                  <img src="assets/project_images/lvcollective/pic2.png" class="image-slide project-img" alt="Image 2">
+                  <img src="assets/project_images/lvcollective/pic3.png" class="image-slide project-img" alt="Image 3">
+                </div>
+              </div>
+              <div class="project-overall-details">
+                <div class="project-name">
+                  <p>LV Collective</p>
+                  <a href="https://lvcollective.com/" target="_blank">
+                    <div class="live-container" id="live-btn5">
+                      <p>LIVE</p>
+                      <img src="assets/live.svg" alt="">
+                    </div>
+                  </a>
+                </div>
+                <div class="project-technologies">
+                  <span class="skill-capsule" style="width: 100px; background: #00759c29">
+                  <img src="assets/skills/wordpress.svg" alt="" class="skill-logo">
+                  <span class="skill-name" style="color: #00749C">Wordpress</span>
+                  </span>
+                  <span class="skill-capsule" style="width:100px; background: rgba(146, 0, 58, 0.16);">
+                  <img src="assets/elementor.svg" alt="" class="skill-logo">
+                  <span class="skill-name" style="color: #92003B">Elementor</span>
+                  </span>
+                </div>
+                <hr>
+                <p class="project-description">We crafted strategic site for LV Collective. Load speed dropped under <b>1.5 seconds</b>, inbounds grew by <b>400% within 3 months</b>, and form submissions nearly doubled. Supporting a successful funding round post-launch.
+                </p>
+              </div>
+            </div>
+            <!-- Project 6 (replica of Project 2) -->
+            <div class="details-container color-container project-details-container">
+              <div class="article-container">
+                <div class="image-container" id="container6">
+                  <img src="assets/project_images/articlestudentliving/pic1.png" class="image-slide project-img" alt="Image 1">
+                  <img src="assets/project_images/articlestudentliving/pic2.png" class="image-slide project-img" alt="Image 2">
+                  <img src="assets/project_images/articlestudentliving/pic3.png" class="image-slide project-img" alt="Image 3">
+                </div>
+              </div>
+              <div class="project-overall-details">
+                <div class="project-name">
+                  <p>Article Student Living</p>
+                  <a href="https://articlestudentliving.com/" target="_blank">
+                    <div class="live-container" id="live-btn6">
+                      <p>LIVE</p>
+                      <img src="assets/live.svg" alt="">
+                    </div>
+                  </a>
+                </div>
+                <div class="project-technologies">
+                  <span class="skill-capsule" style="width: 70px; background: rgba(97, 220, 251, 0.16)">
+                  <img src="assets/skills/react.svg" alt="" class="skill-logo">
+                  <span class="skill-name" style="color: #61DBFB">React</span>
+                  </span>
+                  <span class="skill-capsule" style="width:85px; background: rgba(0, 0, 0, 0.16);">
+                  <img src="assets/skills/Express.svg" alt="" class="skill-logo">
+                  <span class="skill-name" style="color: #000000">Express</span>
+                  </span>
+                  <span class="skill-capsule" style="width:95px; background: rgba(77, 179, 61, 0.16);">
+                  <img src="assets/skills/MongoDB.svg" alt="" class="skill-logo">
+                  <span class="skill-name" style="color: #4DB33D">MongoDB</span>
+                  </span>
+                </div>
+                <hr>
+                <p class="project-description">We modernized Article Student Living’s website. Organic visits <b>rose by 85%</b> within 60 days, page views per session jumped from <b>2 to 7</b>, and bounce rate <b>dropped by 30%</b>. The brand now <b>leads regionally</b> in its category.
+                </p>
+              </div>
+            </div>
+          <!-- End of #more-projects -->
+        </div>
+        <div class="about-containers" id="projects-group-3" style="display: none">
+            <!-- Project 4 -->
+            <div class="details-container color-container project-details-container">
+              <div class="article-container">
+                <div class="image-container" id="container4">
                   <img src="assets/project_images/shayasi/pic1.png" class="image-slide project-img" alt="Image 1">
                   <img src="assets/project_images/shayasi/pic2.png" class="image-slide project-img" alt="Image 2">
                   <img src="assets/project_images/shayasi/pic3.png" class="image-slide project-img" alt="Image 3">
                 </div>
               </div>
-              <!-- work -->
               <div class="project-overall-details">
                 <div class="project-name">
                   <p>ShayasiSilver</p>
                   <a href="https://shayasisilver.com/" target="_blank">
-                    <div class="live-container" id="live-btn3">
+                    <div class="live-container" id="live-btn4">
                       <p>LIVE</p>
-                      <img src="assets/live.svg"" alt="">
-              </div>
-            </a>
-            </div>
-
-            <div class=" project-technologies">
-                      <span class="skill-capsule" style="width: 100px; background: #00759c29">
-                        <img src="assets/skills/wordpress.svg" alt="" class="skill-logo">
-                        <span class="skill-name" style="color: #00749C">Wordpress</span>
-                      </span>
-                      <span class="skill-capsule" style="width:100px; background: rgba(146, 0, 58, 0.16);">
-                        <img src="assets/elementor.svg" alt="" class="skill-logo">
-                        <span class="skill-name" style="color: #92003B">Elementor</span>
-                      </span>
-                      <span class="skill-elementor"></span>
+                      <img src="assets/live.svg" alt="">
                     </div>
-
-                    <hr>
-
-                    <p class="project-description">Designed a robust e-commerce site for a jewelry brand,
-                      achieving over <b>$120K</b> in monthly sales with a user-friendly Interface, effective Search
-                      Optimization techniques.</p>
+                  </a>
                 </div>
-                <!-- work -->
+                <div class="project-technologies">
+                  <span class="skill-capsule" style="width: 100px; background: #00759c29">
+                  <img src="assets/skills/wordpress.svg" alt="" class="skill-logo">
+                  <span class="skill-name" style="color: #00749C">Wordpress</span>
+                  </span>
+                  <span class="skill-capsule" style="width:100px; background: rgba(146, 0, 58, 0.16);">
+                  <img src="assets/elementor.svg" alt="" class="skill-logo">
+                  <span class="skill-name" style="color: #92003B">Elementor</span>
+                  </span>
+                </div>
+                <hr>
+                <p class="project-description">Designed a robust e-commerce site for a jewelry brand,
+                  achieving over <b>$120K</b> in monthly sales with a user-friendly Interface, effective Search
+                  Optimization techniques.
+                </p>
               </div>
-
             </div>
-          </div>
-  </section>
-  <section id="Painpoint">
-    <!-- <p class="section__text__p1">Get To Know More</p> -->
-    <h1 class="title">Ever feel like you are stuck growing business</h1>
-    <div class="painpoint-list">
-      <div class="painpoint-list-items">
-        <img src="assets/Cross.png" alt="">
-        <p class="painpoint-list-items-text">You've got the traffic, but they are not converting,</p>
-      </div>
-      <div class="painpoint-list-items">
-        <img src="assets/Cross.png" alt="">
-        <p class="painpoint-list-items-text">No idea how you can get more sales(from website).</p>
-      </div>
-      <div class="painpoint-list-items">
-        <img src="assets/Cross.png" alt="">
-        <p class="painpoint-list-items-text">You've a beautiful site, but barely any leads or sales.</p>
-      </div>
-      <div class="painpoint-list-items">
-        <img src="assets/Cross.png" alt="">
-        <p class="painpoint-list-items-text">Every one of your conpetitors seems to be "ahead of you".</p>
-      </div>
-      <div class="painpoint-list-items">
-        <img src="assets/Cross.png" alt="">
-        <p class="painpoint-list-items-text">You've got a great produce/sevice, but still no-one is showing interest.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- <section id="about">
-    <p class="section__text__p1">Get To Know More</p>
-    <h1 class="title">About Me</h1>
-    <div class="section-container">
-      <div class="section__pic-container">
-        <img src="./assets/Zafar_about.png" alt="Profile picture" class="about-pic" />
-      </div>
-      <div class="about-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
-            <h3>Experience</h3>
-            <p>2+ years <br />Full-Stack Development</p>
-          </div>
-          <div class="details-container">
-            <img src="./assets/education.png" alt="Education icon" class="icon" />
-            <h3>Education</h3>
-            <p>Bachelors of Technology<br />Computer Science</p>
-          </div>
+            <!-- Project 5 (replica of Project 1) -->
+            <div class="details-container color-container project-details-container">
+              <div class="article-container">
+                <div class="image-container" id="container5">
+                  <img src="assets/project_images/doyoueven/pic1.png" class="image-slide project-img" alt="Image 1">
+                  <img src="assets/project_images/doyoueven/pic2.png" class="image-slide project-img" alt="Image 2">
+                  <img src="assets/project_images/doyoueven/pic3.png" class="image-slide project-img" alt="Image 3">
+                </div>
+              </div>
+              <div class="project-overall-details">
+                <div class="project-name">
+                  <p>Doyoueven</p>
+                  <a href="https://www.doyoueven.com/" target="_blank">
+                    <div class="live-container" id="live-btn5">
+                      <p>LIVE</p>
+                      <img src="assets/live.svg" alt="">
+                    </div>
+                  </a>
+                </div>
+                <div class="project-technologies">
+                  <span class="skill-capsule" style="width: 100px; background: #00759c29">
+                  <img src="assets/skills/wordpress.svg" alt="" class="skill-logo">
+                  <span class="skill-name" style="color: #00749C">Wordpress</span>
+                  </span>
+                  <span class="skill-capsule" style="width:100px; background: rgba(146, 0, 58, 0.16);">
+                  <img src="assets/elementor.svg" alt="" class="skill-logo">
+                  <span class="skill-name" style="color: #92003B">Elementor</span>
+                  </span>
+                </div>
+                <hr>
+                <p class="project-description">Crafted a elegant e-commerce platform for an athletic wear brand,
+                  generating over <b>$250K</b> in monthly sales through modern UI design and strategic SEO
+                  implementation.
+                </p>
+              </div>
+            </div>
+            <!-- Project 6 (replica of Project 2) -->
+            <div class="details-container color-container project-details-container">
+              <div class="article-container">
+                <div class="image-container" id="container6">
+                  <img src="assets/project_images/kalyanam/pic1.png" class="image-slide project-img" alt="Image 1">
+                  <img src="assets/project_images/kalyanam/pic2.png" class="image-slide project-img" alt="Image 2">
+                  <img src="assets/project_images/kalyanam/pic3.png" class="image-slide project-img" alt="Image 3">
+                </div>
+              </div>
+              <div class="project-overall-details">
+                <div class="project-name">
+                  <p>Kalyanamm</p>
+                  <a href="https://kalyanamm.com/" target="_blank">
+                    <div class="live-container" id="live-btn6">
+                      <p>LIVE</p>
+                      <img src="assets/live.svg" alt="">
+                    </div>
+                  </a>
+                </div>
+                <div class="project-technologies">
+                  <span class="skill-capsule" style="width: 70px; background: rgba(97, 220, 251, 0.16)">
+                  <img src="assets/skills/react.svg" alt="" class="skill-logo">
+                  <span class="skill-name" style="color: #61DBFB">React</span>
+                  </span>
+                  <span class="skill-capsule" style="width:85px; background: rgba(0, 0, 0, 0.16);">
+                  <img src="assets/skills/Express.svg" alt="" class="skill-logo">
+                  <span class="skill-name" style="color: #000000">Express</span>
+                  </span>
+                  <span class="skill-capsule" style="width:95px; background: rgba(77, 179, 61, 0.16);">
+                  <img src="assets/skills/MongoDB.svg" alt="" class="skill-logo">
+                  <span class="skill-name" style="color: #4DB33D">MongoDB</span>
+                  </span>
+                </div>
+                <hr>
+                <p class="project-description">Created a sleek e-commerce site with responsive design, seamless
+                  navigation, and SEO optimization. High-quality visuals and efficient checkout contributed to over
+                  <b>$170K</b> in sales.
+                </p>
+              </div>
+            </div>
+          <!-- End of #more-projects -->
         </div>
-        <div class="text-container">
-          <p>
-            I am a seasoned web developer specializing in crafting high-performance websites with exceptional UI and
-            robust functionality. My expertise includes integrating advanced technologies, optimizing site performance,
-            and implementing strategic SEO practices. My work has consistently driven substantial sales for clients
-            across diverse industries. Committed to excellence, I offer a <b>100% refund policy</b> for unsatisfactory
-            results, ensuring client satisfaction, and trust in every project.
+      
+          <!-- Show More Button -->
+          <div style="text-align: center; margin-top: 20px;">
+            <button id="show-more-btn" style="padding: 10px 20px; background-color: #000000; color: white; border: none; border-radius: 10px; cursor: pointer; font-family: inter, sans-serif;">
+            Show More
+            </button>
+          </div>
+      </div>
+    </section>
+    <section id="Painpoint" style="display: flex; justify-content: center; flex-direction: column;">
+      <!-- <p class="section__text__p1">Get To Know More</p> -->
+      <h1 class="title">Ever feel like you are stuck growing business</h1>
+      <div class="painpoint-list">
+        <div class="painpoint-list-items">
+          <img src="assets/Cross.png" alt="">
+          <p class="painpoint-list-items-text">You've got the traffic, but they are not converting,</p>
+        </div>
+        <div class="painpoint-list-items">
+          <img src="assets/Cross.png" alt="">
+          <p class="painpoint-list-items-text">No idea how you can get more sales(from website).</p>
+        </div>
+        <div class="painpoint-list-items">
+          <img src="assets/Cross.png" alt="">
+          <p class="painpoint-list-items-text">You've a beautiful site, but barely any leads or sales.</p>
+        </div>
+        <div class="painpoint-list-items">
+          <img src="assets/Cross.png" alt="">
+          <p class="painpoint-list-items-text">Every one of your competitors seems to be "ahead of you".</p>
+        </div>
+        <div class="painpoint-list-items">
+          <img src="assets/Cross.png" alt="">
+          <p class="painpoint-list-items-text">You've got a great offer, but still no-one is showing interest.
           </p>
         </div>
       </div>
-    </div>
-    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
-  </section> -->
-
-  <!-- <section id="experience">
-    <p class="section__text__p1">Explore My</p>
-    <h1 class="title">Experience</h1>
-    <section class="skillsSection" id="skills">
-      <div class="skillsContainer sectionContainer">
-        <ul class="skillsGrid">
-          <li>
-            <div class="itemContainer">
-              <img src="assets/skills/shopify.svg">
-              <p>Shopify</p>
+    </section>
+    <!-- <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="./assets/Zafar_about.png" alt="Profile picture" class="about-pic" />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+              <h3>Experience</h3>
+              <p>2+ years <br />Full-Stack Development</p>
             </div>
-          </li>
-          <li>
-            <div class="itemContainer">
-              <img src="assets/skills/wordpress.svg">
-              <p>Wordpress</p>
+            <div class="details-container">
+              <img src="./assets/education.png" alt="Education icon" class="icon" />
+              <h3>Education</h3>
+              <p>Bachelors of Technology<br />Computer Science</p>
             </div>
-          </li>
-          <li>
-            <div class="itemContainer">
-              <img src="assets/skills/SEO.png">
-              <p>SEO</p>
-            </div>
-          </li>
-          <li>
-            <div class="itemContainer">
-              <img src="assets/skills/html.svg">
-              <p>HTML</p>
-            </div>
-          </li>
-          <li>
-            <div class="itemContainer">
-              <img src="assets/skills/css.svg">
-              <p>CSS</p>
-            </div>
-          </li>
-          <li>
-            <div class="itemContainer">
-              <img src="assets/skills/javascript.svg">
-              <p>Javascript</p>
-            </div>
-          </li>
-          <li>
-            <div class="itemContainer">
-              <img src="assets/skills/PHP.svg">
-              <p>PHP</p>
-            </div>
-          </li>
-          <li>
-            <div class="itemContainer">
-              <img src="assets/skills/MySQL.svg">
-              <p>MySQL</p>
-            </div>
-          </li>
-          <li>
-            <div class="itemContainer">
-              <img src="assets/skills/Node.js.svg">
-              <p>NodeJS</p>
-            </div>
-          </li>
-          <li>
-            <div class="itemContainer">
-              <img src="assets/skills/Express.svg">
-              <p>ExpressJS</p>
-            </div>
-          </li>
-          <li>
-            <div class="itemContainer">
-              <img src="assets/skills/react.svg">
-              <p>ReactJS</p>
-            </div>
-          </li>
-          <li>
-            <div class="itemContainer">
-              <img src="assets/skills/MongoDB.svg">
-              <p>MongoDB</p>
-            </div>
-          </li>
-          <!-- <li>
-            <div class="itemContainer">
-              <img src="assets/skills/Cpp.svg">
-              <p>C++</p>
-            </div>
-          </li> -->
-  <!-- </ul>
+          </div>
+          <div class="text-container">
+            <p>
+              I am a seasoned web developer specializing in crafting high-performance websites with exceptional UI and
+              robust functionality. My expertise includes integrating advanced technologies, optimizing site performance,
+              and implementing strategic SEO practices. My work has consistently driven substantial sales for clients
+              across diverse industries. Committed to excellence, I offer a <b>100% refund policy</b> for unsatisfactory
+              results, ensuring client satisfaction, and trust in every project.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+      </section> -->
+    <!-- <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <section class="skillsSection" id="skills">
+        <div class="skillsContainer sectionContainer">
+          <ul class="skillsGrid">
+            <li>
+              <div class="itemContainer">
+                <img src="assets/skills/shopify.svg">
+                <p>Shopify</p>
+              </div>
+            </li>
+            <li>
+              <div class="itemContainer">
+                <img src="assets/skills/wordpress.svg">
+                <p>Wordpress</p>
+              </div>
+            </li>
+            <li>
+              <div class="itemContainer">
+                <img src="assets/skills/SEO.png">
+                <p>SEO</p>
+              </div>
+            </li>
+            <li>
+              <div class="itemContainer">
+                <img src="assets/skills/html.svg">
+                <p>HTML</p>
+              </div>
+            </li>
+            <li>
+              <div class="itemContainer">
+                <img src="assets/skills/css.svg">
+                <p>CSS</p>
+              </div>
+            </li>
+            <li>
+              <div class="itemContainer">
+                <img src="assets/skills/javascript.svg">
+                <p>Javascript</p>
+              </div>
+            </li>
+            <li>
+              <div class="itemContainer">
+                <img src="assets/skills/PHP.svg">
+                <p>PHP</p>
+              </div>
+            </li>
+            <li>
+              <div class="itemContainer">
+                <img src="assets/skills/MySQL.svg">
+                <p>MySQL</p>
+              </div>
+            </li>
+            <li>
+              <div class="itemContainer">
+                <img src="assets/skills/Node.js.svg">
+                <p>NodeJS</p>
+              </div>
+            </li>
+            <li>
+              <div class="itemContainer">
+                <img src="assets/skills/Express.svg">
+                <p>ExpressJS</p>
+              </div>
+            </li>
+            <li>
+              <div class="itemContainer">
+                <img src="assets/skills/react.svg">
+                <p>ReactJS</p>
+              </div>
+            </li>
+            <li>
+              <div class="itemContainer">
+                <img src="assets/skills/MongoDB.svg">
+                <p>MongoDB</p>
+              </div>
+            </li>
+            <!-- <li>
+              <div class="itemContainer">
+                <img src="assets/skills/Cpp.svg">
+                <p>C++</p>
+              </div>
+            </li> -->
+    <!-- </ul>
+      </div>
+      </section>
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+      </section> -->
+    <section id="Final-CTA-Container">
+      <h1 class="Final-CTA-Container-title title">In the past 5 years, I’ve helped businesses grow to at least <span
+        class="final-cta-highlight-text">2x their revenue</span>, and even higher.</h1>
+      <!-- <p>You can get same results</p> -->
+      <p>I can get you same results</p>
+      <button class="btn btn-color-1" onclick="location.href = 'https://calendly.com/bbbb225321/30min'">
+      Book your free discovery call now
+      </button>
+    </section>
+    <section id="contact">
+      <!-- <p class="section__text__p1">Get in Touch</p> -->
+      <h1 class="title">Get in Touch</h1>
+      <div class="contact-main-container">
+        <div class="contact-options-container">
+          <div class="contact-option">
+            <a class="mail-linkedin-url" href="mailto:mansurizfrofficial@gmail.com">
+            <img src="./assets/Email.png" alt="Email icon" class="contact-option-icon" />
+            <button class="contact-btn">Write Us</button>
+            </a>
+            <a class="mail-linkedin-url" href="https://www.linkedin.com/in/mansurizfr" target="_blank">
+            <img src="./assets/Linkedin.svg" alt="Linkedin icon" class="contact-option-icon"/>
+            <button class="contact-btn">Connect</button>
+            </a>
+          </div>
+        </div>
       </div>
     </section>
-    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
-  </section> -->
-
-
-  <section id="Final-CTA-Container">
-    <h1 class="Final-CTA-Container-title title">In the past 5 years, I’ve helped businesses grow to at least <span
-        class="final-cta-highlight-text">2x their revenue</span>, and even higher.</h1>
-    <p>You can get same results</p>
-    <button class="btn btn-color-1" onclick="location.href = 'https://calendly.com/bbbb225321/30min'">
-      Book your free discovery call now
-    </button>
-  </section>
-
-  <section id="contact">
-    <!-- <p class="section__text__p1">Get in Touch</p> -->
-    <h1 class="title">Get in Touch</h1>
-    <div class="contact-main-container">
-      <div class="contact-options-container">
-        <div class="contact-option">
-          <a class="mail-linkedin-url" href="mailto:mansurizfrofficial@gmail.com">
-              <img src="./assets/Email.png" alt="Email icon" class="contact-option-icon" />
-              <button class="contact-btn">Write Us</button>
-          </a>
-          <a class="mail-linkedin-url" href="https://www.linkedin.com/in/mansurizfr" target="_blank">
-              <img src="./assets/Linkedin.svg" alt="Linkedin icon" class="contact-option-icon"/>
-              <button class="contact-btn">Connect</button>
-          </a>
+    <footer>
+      <!-- <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </div>
-        </div>
-    </div>
-  </section>
-
-  <footer>
-    <!-- <nav>
-      <div class="nav-links-container">
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav> -->
-    <p>Copyright &#169; 2022 Zafar Mansuri. All Rights Reserved.</p>
-  </footer>
-  <script src="script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-  <script>
-    const swiper = new Swiper('.js-testimonials-slider', {
-      loop: true,
-      grabCursor: true,
-      spaceBetween: 30,
-      pagination: {
-        el: '.js-testimonials-pagination',
-        clickable: true
-      },
-      breakpoints: {
-        767: {
-          slidesPerView: 3
+        </nav> -->
+      <p>Copyright &#169; 2022 Zafar Mansuri. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.js-testimonials-slider', {
+        loop: true,
+        grabCursor: true,
+        spaceBetween: 30,
+        pagination: {
+          el: '.js-testimonials-pagination',
+          clickable: true
+        },
+        breakpoints: {
+          767: {
+            slidesPerView: 3
+          }
         }
-      }
-    })
-  </script>
-</body>
-
+      })
+    </script>
+  </body>
 </html>

@@ -123,6 +123,10 @@
   .testimonial-section{
     padding-top: 0;
   }
+
+  #Painpoint{
+    padding-top: 10vh !important;
+  }
 }
 
 /* newly added */
@@ -220,7 +224,7 @@
 
 .project-overall-details p b{
   font-weight: 700;
-  font-size: 0.80rem;
+  font-size: 0.95rem;
 }
 
 
@@ -291,4 +295,12 @@
 .live-container img{
   width: 16px;
   fill: white;
+}
+
+@media screen and (min-width: 475px){
+  .testimonials{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
 }

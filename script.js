@@ -39,3 +39,43 @@ function startShaking() {
 
 // Shake the button every 3 seconds
 setInterval(startShaking, 4000);
+
+
+// document.getElementById("show-more-btn").addEventListener("click", function () {
+//     const moreProjects = document.getElementById("more-projects");
+//     const button = document.getElementById("show-more-btn");
+
+//     if (moreProjects.style.display === "none") {
+//       moreProjects.style.display = "flex";
+//       button.textContent = "Show Less";
+//     } else {
+//       moreProjects.style.display = "none";
+//       button.textContent = "Show More";
+//     }
+//   });
+
+
+  let showState = 0; // 0 = show group 2, 1 = show group 3, 2 = collapse all
+
+document.getElementById("show-more-btn").addEventListener("click", function () {
+  const group2 = document.getElementById("projects-group-2");
+  const group3 = document.getElementById("projects-group-3");
+  const button = document.getElementById("show-more-btn");
+
+  if (showState === 0) {
+    group2.style.display = "flex";
+    button.textContent = "Show More";
+    showState = 1;
+  } else if (showState === 1) {
+    group3.style.display = "flex";
+    button.textContent = "Show Less";
+    showState = 2;
+  } else {
+    group2.style.display = "none";
+    group3.style.display = "none";
+    button.textContent = "Show More";
+    showState = 0;
+    // Optional: scroll back to top of projects
+    document.getElementById("projects").scrollIntoView({ behavior: "smooth" });
+  }
+});
