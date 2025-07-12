@@ -644,3 +644,81 @@ footer p {
 .Nav-link-to-hide{
   visibility: hidden;
 }
+
+/* ---------Free Gift Section On main page----------- */
+.free-gift-para{
+  display: inline;
+  text-align: center;
+}
+
+.free-gift-page-link{
+  display: inline;
+  border-bottom: 1px solid;
+  font-weight: 500;
+}
+
+.free-gift-page-link:hover{
+  text-decoration: none !important;
+}
+
+@media screen and (max-width: 475px){
+  .free-gift-para{
+    margin-bottom: 2rem;
+  }
+
+  .free-ebook-name {
+    font-size: 1.7rem !important;
+    text-align: center;
+    line-height: 130%;
+  }
+
+  .free-pdf-image {
+    width: 217px !important;
+  }
+
+  #free-ebook-main-container{
+    flex-wrap: wrap;
+    gap: 2rem !important;
+    padding-top: 0 !important;
+  }
+
+  .free-ebook-download-button{
+    margin-top: 1rem;
+  }
+}
+
+/* ---------Free Gift Page----------- */
+#free-ebook-main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh !important;
+  gap: 7rem;
+}
+
+.book-name-and-image-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.free-ebook-name{
+  max-width: 600px;
+  font-size: 3rem;
+  text-align: center;
+  line-height: 110%;
+}
+
+.free-ebook-download-button{
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 300ms ease;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+.free-pdf-image{
+  width: 300px;
+}
